@@ -123,13 +123,13 @@ label{
 }
 
 
-
+/* Whatsapp icon */
 .float{
 	position:fixed;
 	width:60px;
 	height:60px;
 	top:20px;
-	right:50%;
+	right:10%;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -143,6 +143,26 @@ label{
 	margin-top:16px;
 }
 
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
 
 .header-middle input[type="search"] {
     outline: none;
